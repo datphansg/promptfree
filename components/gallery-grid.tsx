@@ -45,7 +45,7 @@ export function GalleryGrid({ images }: GalleryGridProps) {
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
             {image.prompt && (
               <div className="absolute bottom-0 left-0 right-0 p-3 text-left opacity-0 transition-opacity group-hover:opacity-100">
-                <p className="line-clamp-2 text-xs text-white">{image.target}</p>
+                <p className="line-clamp-2 text-xs text-white">{image.prompt}</p>
               </div>
             )}
           </button>
