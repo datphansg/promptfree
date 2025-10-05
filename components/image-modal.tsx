@@ -71,7 +71,8 @@ export function ImageModal({ image, open, onOpenChange }: ImageModalProps) {
                     {copied === "prompt" ? "Copied!" : "Copy"}
                   </Button>
                 </div>
-                <p className="text-sm leading-relaxed">{image.prompt}</p>
+                <p className="text-sm leading-relaxed">{image.alt}</p>
+                {/* <p className="text-sm leading-relaxed">{image.prompt}</p> */}
               </div>
             )}
 
